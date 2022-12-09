@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply m-0 p-0 font-rival font-light;
+}
+
+body {
+	@apply bg-white;
+}
+
+h1 {
+	@apply font-eb font-normal;
+}
+
+h2 {
+	@apply font-rival font-normal;
+}
+
+h3 {
+	@apply font-premier font-normal;
+}
+
+.ant-select-selection-placeholder{
+	color: black !important;
+}
+
+.ant-select-tree-switcher .ant-select-tree-switcher_close{
+	display: none !important;
+}
+@layer components {
+	/* Button CSS */
+
+	.btn {
+		@apply border-2 border-metal py-2 px-6 font-premier text-sm uppercase tracking-widest hover:bg-metal hover:text-white transition;
+	}
+
+	.btn-white {
+		@apply border-2 border-white py-2 px-4 font-premier text-sm uppercase tracking-widest hover:bg-white hover:text-black transition;
+	}
+
+	/* Form INPUT css */
+
+	.input {
+		@apply bg-transparent border border-black/60 focus:border-black focus:ring-fake p-3 transition;
+	}
+
+	/* View all products button CSS */
+
+	.view-all {
+		@apply text-xs text-[#747474] uppercase hover:text-black transition;
+	}
+
+	/* Checkout active or not-active */
+	.step1Input{
+		@apply w-full border-b-[1px] border-t-0 border-l-0 border-r-0
+	}
+
+	.stepTitle{
+		@apply font-garamond text-[28px] text-[#222222] font-normal;
+	}
+
+	.done {
+		@apply text-white bg-[#76351A] py-3 px-10 ;
+	}
+
+	.need {
+		@apply text-black bg-transparent py-3 px-10;
+	}
+
+	.open {
+		@apply bg-white border-b-[1px] border-[#D2D2D2];
+	}
+
+	.closed {
+		@apply bg-transparent;
+	}
+
+	/* Header CSS */
+
+	.transparent-nav {
+		top: 0px;
+		transform: translateY(6rem);
+		color: white;
+	}
+
+	.scroll-down {
+		transform: translateY(4rem);
+		background-color: white;
+		filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+		color: black;
+	}
+
+	.navbar-white {
+		background-color: white;
+		color: black;
+	}
+
+	.navbar-white-default {
+		background-color: white;
+		color: black;
+		filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+	}
+
+	.navbar {
+		position: fixed;
+		transition: 0.2s ease all;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+	}
+
+	/* Hover LINK navigation animation */
+
+	.nav-link {
+		background-image: linear-gradient(to right, #b55f3b, #b55f3b 50%, #222222c6 50%);
+		background-size: 200% 100%;
+		background-position: -100%;
+		display: inline-block;
+		padding: 0px 0;
+		position: relative;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.nav-link:before {
+		content: "";
+		background: #b55f3b;
+		display: block;
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		width: 0;
+		height: 2px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.nav-link:hover {
+		background-position: 0;
+	}
+
+	.nav-link:hover::before {
+		width: 100%;
+	}
+
+	/* Hover LINK animation */
+
+	.hover-link {
+		background-image: linear-gradient(to right, #b55f3b, #b55f3b 50%, #ffffff 50%);
+		background-size: 200% 100%;
+		background-position: -100%;
+		display: inline-block;
+		padding: 0px 0;
+		position: relative;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.hover-link:before {
+		content: "";
+		background: #b55f3b;
+		display: block;
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		width: 0;
+		height: 2px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.hover-link:hover {
+		background-position: 0;
+	}
+
+	.hover-link:hover::before {
+		width: 100%;
+	}
+}
+
+.carousel,
+.carousel-slider {
+	position: static !important;
+}
+
+ul.slider {
+	z-index: 61;
+}

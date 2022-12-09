@@ -1,0 +1,84 @@
+{
+	"name": "expandit",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@cocart/cocart-rest-api": "^1.1.0",
+		"@emotion/styled": "^11.10.5",
+		"@headlessui/react": "^1.7.3",
+		"@heroicons/react": "^2.0.11",
+		"@mui/icons-material": "^5.10.16",
+		"@mui/joy": "^5.0.0-alpha.56",
+		"@mui/material": "^5.10.16",
+		"@syncfusion/ej2-react-dropdowns": "^20.3.58",
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"@tailwindcss/forms": "^0.5.3",
+		"@tailwindcss/typography": "^0.5.7",
+		"@woocommerce/woocommerce-rest-api": "^1.0.1",
+		"@wordpress/api-fetch": "^6.18.0",
+		"antd": "^5.0.2",
+		"axios": "^1.2.0",
+		"buffer": "^6.0.3",
+		"craco": "^0.0.3",
+		"crypto-browserify": "^3.12.0",
+		"formik": "^2.2.9",
+		"fs": "^0.0.1-security",
+		"http-proxy-middleware": "^2.0.6",
+		"jsonwebtoken": "^8.5.1",
+		"mobx-react-lite": "^3.4.0",
+		"multiselect-react-dropdown": "^2.0.25",
+		"net": "^1.0.2",
+		"node-binance-api": "^0.13.1",
+		"notiflix": "^3.2.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-flagkit": "^2.0.4",
+		"react-flagpack": "1.0.0",
+		"react-multi-carousel": "^2.8.2",
+		"react-notifications": "^1.7.4",
+		"react-responsive-carousel": "^3.2.23",
+		"react-router-dom": "^6.4.3",
+		"react-scripts": "5.0.1",
+		"stream": "^0.0.2",
+		"stream-browserify": "^3.0.0",
+		"stream-http": "^3.2.0",
+		"tls": "^0.0.1",
+		"web-vitals": "^2.1.4",
+		"yup": "^0.32.11"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@atlaskit/dropdown-menu": "^11.5.3",
+		"autoprefixer": "^10.4.12",
+		"crypto": "npm:crypto-browserify",
+		"postcss": "^8.4.17",
+		"tailwindcss": "^3.1.8",
+		"tailwindcss-scoped-groups": "^2.0.0"
+	},
+	"browser": {
+		"crypto": false
+	}
+}
