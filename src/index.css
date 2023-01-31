@@ -2,25 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-	@apply m-0 p-0 font-rival font-light;
-}
-
 body {
 	@apply bg-white;
 }
 
-h1 {
-	@apply font-eb font-normal;
-}
-
-h2 {
-	@apply font-rival font-normal;
-}
-
-h3 {
-	@apply font-premier font-normal;
-}
 
 .ant-select-selection-placeholder{
 	color: black !important;
