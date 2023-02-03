@@ -2,8 +2,8 @@
 import Film1 from "./../../../../assets/images/omoss/Film1.png"
 import Film2 from "./../../../../assets/images/omoss/Film2.png"
 
-import mail from "./../../../../assets/images/omoss/mail.png"
-import linkedin from "./../../../../assets/images/omoss/linkedin.png"
+import mail from "./../../../../assets/images/omoss/mail.svg"
+import linkedin from "./../../../../assets/images/omoss/linkedin.svg"
 
 
 
@@ -11,13 +11,13 @@ import linkedin from "./../../../../assets/images/omoss/linkedin.png"
 function FilmProducts() {
     return (
         <section className="w-full flex justify-center flex-col items-center py-[6rem]">
-            <div className="w-[85%] flex gap-12">
-                <div className="w-full grid grid-cols-3 gap-6">
+            <div className="w-[85%] flex">
+                <div className="w-[70%] grid grid-cols-2 gap-[150px]">
                     <div className="relative">
                         <img className="w-full" src={Film1} />
-                        <div className="flex flex-row items-center justify-between">
+                        <div className="flex flex-row items-center justify-between mt-6">
                             <p className="text-[24px] text-[#0B0B0B] font-bold font-acumin">TRULS MÖRFELT</p>
-                            <div className="flex flex-row gap-2">
+                            <div className="flex flex-row gap-4">
                                 <img className="w-[20px] h-[18px]" src={mail} />
                                 <img className="w-[20px] h-[18px]" src={linkedin} />
                             </div>
@@ -32,9 +32,9 @@ function FilmProducts() {
 
                     <div className="relative">
                         <img className="w-full" src={Film2} />
-                        <div className="flex flex-row items-center justify-between">
+                        <div className="flex flex-row items-center justify-between mt-6">
                             <p className="text-[24px] text-[#0B0B0B] font-bold font-acumin">DAVID LUDEWIG</p>
-                            <div className="flex flex-row gap-2">
+                            <div className="flex flex-row gap-4">
                                 <img className="w-[20px] h-[18px]" src={mail} />
                                 <img className="w-[20px] h-[18px]" src={linkedin} />
                             </div>

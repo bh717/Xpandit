@@ -1,8 +1,13 @@
+import { useState } from "react";
 import picture1 from "./../../assets/images/dashboard/picture1.png";
 import picture2 from "./../../assets/images/dashboard/picture2.png";
 import picture3 from "./../../assets/images/dashboard/picture3.png";
+import VideoQuickView from "../QuickView/VideoQuickView";
 
 function SubProductSlider() {
+  const [open, setOpen] = useState(false);
+  const [flag, setFlag] = useState('flag1');
+
   return (
     <div className="grid grid-cols-3 w-full gap-12 py-[4rem] mt-[50px]">
       <div className="h-[350px] relative">
@@ -29,7 +34,7 @@ function SubProductSlider() {
               och vi är otroligt nöjda med det materialet som de tagit fram. Vi
               rekommenderar absolut Xpand It Media”
             </p>
-            <button className="bg-white rounded-[40px] w-[135px] h-[35px]">
+            <button className="bg-white rounded-[40px] w-[135px] h-[35px]" onClick={() => {setOpen(true); setFlag('flag1');}}>
               Till caset
             </button>
           </div>
@@ -57,7 +62,7 @@ function SubProductSlider() {
               exceptionell talang. Vi vill ha en partner som kan göra oss unika
               och det får vi verkligen med Xpand It Media”
             </p>
-            <button className="bg-white rounded-[40px] w-[135px] h-[35px]">
+            <button className="bg-white rounded-[40px] w-[135px] h-[35px]" onClick={() => {setOpen(true); setFlag('flag2');}}>
               Till caset
             </button>
           </div>
@@ -84,11 +89,13 @@ function SubProductSlider() {
               mycket bra idéer och input samt svarat och återkopplat väldigt
               snabbt (...) Jag kan vamt rekommendera dem till andra.”
             </p>
-            <button className="bg-white rounded-[40px] w-[135px] h-[35px]">
+            <button className="bg-white rounded-[40px] w-[135px] h-[35px]" onClick={() => {setOpen(true); setFlag('flag3');}}>
               Till caset
             </button>
           </div>
         </div>
+      <VideoQuickView open={open} setOpen={setOpen} flag={flag}/>
+
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import SubProductSlider from "./../../../../components/ProductSlider/SubProductSlider";
+import RekSubProductSlider from "./../../../../components/ProductSlider/RekSubProductSlider";
 
 function PremiumSpice() {
 	return (
@@ -6,7 +6,7 @@ function PremiumSpice() {
 			<div className="w-[85%] flex gap-12">
 				<div className="w-full flex flex-col w-[100%] lg:w-[100%] text-left">
 					<h3 className="text-[64px] text-[#0B0B0B] font-acumin font-bold">Från en idé till en <br/> färdig film.</h3>
-					<SubProductSlider/>
+					<RekSubProductSlider/>
 				</div>
 			</div>
 		</section>
