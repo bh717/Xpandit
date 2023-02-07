@@ -32,7 +32,7 @@ function QuickView({ open, setOpen }) {
           </Transition.Child>
 
           <div className="fixed inset-0 z-10 overflow-y-auto">
-            <div className="flex min-h-full items-center justify-center text-center sm:items-center sm:p-0">
+            <div className="flex min-h-full items-center justify-end h-[100%] text-center sm:items-center sm:p-0">
               <Transition.Child
                 as={Fragment}
                 enter="ease-out duration-200"
@@ -42,7 +42,7 @@ function QuickView({ open, setOpen }) {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-[0.25]"
               >
-                <Dialog.Panel className="relative overflow-hidden bg-white text-left shadow-xl transition-all w-[450px] h-[500px] ">
+                <Dialog.Panel className="relative overflow-hidden bg-white text-left shadow-xl transition-all w-[50%] h-[100%] ">
                   <div className="flexgap-4 w-full h-full">
                     <div className="relative">
                       <div className="absolute top-0 left-0 sm:block p-1">
@@ -54,31 +54,31 @@ function QuickView({ open, setOpen }) {
                         <div className="flex p-14 items-center w-full h-full justify-center flex-col">
                           <div>
                             <div className="mb-6">
-                              <p className="font-serif font-semibold text-[#222222] text-[20px] mb-2">
+                              <p className="font-serif font-semibold text-[#222222] text-[60px] mb-8">
                                 Vi brainstormar idéer
                               </p>
-                              <p className="font-serif font-[328px] text-[#747474] text-[14px] mb-2">
+                              <p className="font-serif font-[328px] text-[#747474] text-[24px] mb-8">
                                 I ett kort möte med vårt team går vi tillsammans
                                 igenom:
                               </p>
-                              <p className="font-serif font-[328px] text-[#747474] text-[14px] mb-2">
+                              <p className="font-serif font-[328px] text-[#747474] text-[24px] mb-8">
                                 → en analys av er affärsidé och varumärke ur ett
                                 con-tent-perspektiv.
                               </p>
-                              <p className="font-serif font-[328px] text-[#747474] text-[14px] mb-2">
+                              <p className="font-serif font-[328px] text-[#747474] text-[24px] mb-8">
                                 → Vilken typ av content som hjälper er att nå
                                 era affärsmål
                               </p>
-                              <p className="font-serif font-[328px] text-[#747474] text-[14px] mb-2">
+                              <p className="font-serif font-[328px] text-[#747474] text-[24px] mb-8">
                                 → Framtagande av idéer
                               </p>
                             </div>
                             <div className="flex flex-row w-full px-4 justify-between gap-4">
-                              <button className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[138px] h-[36px] text-white text-[14px]">
+                              <button className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]">
                                 Bli kontaktad
                               </button>
                               <button
-                                className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[138px] h-[36px] text-white text-[14px]"
+                                className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]"
                                 onClick={() => {
                                   setStep((step) => "step1");
                                 }}
@@ -96,7 +96,7 @@ function QuickView({ open, setOpen }) {
                             <img src={number1} />
                           </div>
                           <div className="flex flex-col ml-2 mb-6">
-                            <p className="font-serif font-semibold text-[#222222] text-[20px] mb-4">
+                            <p className="font-serif font-semibold text-[#222222] text-[60px] mb-10">
                               Vad är din e-post?*
                             </p>
                             <input
@@ -106,7 +106,7 @@ function QuickView({ open, setOpen }) {
                           </div>
                           <div className="flex flex-row w-full px-4 justify-between gap-4">
                             <button
-                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[138px] h-[36px] text-white text-[14px]"
+                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]"
                               onClick={() => {
                                 setStep((step) => "step2");
                               }}
@@ -123,7 +123,7 @@ function QuickView({ open, setOpen }) {
                             <img src={number2} />
                           </div>
                           <div className="flex flex-col ml-2 mb-6">
-                            <p className="font-serif font-semibold text-[#222222] text-[20px] mb-4">
+                            <p className="font-serif font-semibold text-[#222222] text-[60px] mb-10">
                               Ditt fullständiga namn?
                             </p>
                             <input
@@ -133,7 +133,7 @@ function QuickView({ open, setOpen }) {
                           </div>
                           <div className="flex flex-row w-full px-4 justify-between gap-4">
                             <button
-                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[138px] h-[36px] text-white text-[14px]"
+                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]"
                               onClick={() => {
                                 setStep((step) => "step3");
                               }}
@@ -150,7 +150,7 @@ function QuickView({ open, setOpen }) {
                             <img src={number3} />
                           </div>
                           <div className="flex flex-col ml-2 mb-6">
-                            <p className="font-serif font-semibold text-[#222222] text-[20px] mb-4">
+                            <p className="font-serif font-semibold text-[#222222] text-[60px] mb-10">
                               Vad vill du skapa?
                             </p>
                             <input
@@ -160,7 +160,7 @@ function QuickView({ open, setOpen }) {
                           </div>
                           <div className="flex flex-row w-full px-4 justify-between gap-4">
                             <button
-                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[138px] h-[36px] text-white text-[14px]"
+                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]"
                               onClick={() => {
                                 setStep((step) => "step4");
                               }}
@@ -177,7 +177,7 @@ function QuickView({ open, setOpen }) {
                             <img src={number4} />
                           </div>
                           <div className="flex flex-col ml-2 mb-6">
-                            <p className="font-serif font-semibold text-[#222222] text-[20px] mb-4">
+                            <p className="font-serif font-semibold text-[#222222] text-[60px] mb-10">
                               Beskriv projektet
                             </p>
                             <input
@@ -187,7 +187,7 @@ function QuickView({ open, setOpen }) {
                           </div>
                           <div className="flex flex-row w-full px-4 justify-between gap-4">
                             <button
-                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[138px] h-[36px] text-white text-[14px]"
+                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]"
                               onClick={() => {
                                 setStep((step) => "step5");
                               }}
@@ -204,7 +204,7 @@ function QuickView({ open, setOpen }) {
                             <img src={number5} />
                           </div>
                           <div className="flex flex-col ml-2 mb-6">
-                            <p className="font-serif font-semibold text-[#222222] text-[20px] mb-4">
+                            <p className="font-serif font-semibold text-[#222222] text-[60px] mb-10">
                               Budget på projektet?
                             </p>
                             <input
@@ -214,7 +214,7 @@ function QuickView({ open, setOpen }) {
                           </div>
                           <div className="flex flex-row w-full px-4 justify-between gap-4">
                             <button
-                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[138px] h-[36px] text-white text-[14px]"
+                              className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]"
                               onClick={() => {
                                 setStep((step) => "finish");
                               }}
@@ -231,10 +231,10 @@ function QuickView({ open, setOpen }) {
                             <img src={finish} />
                           </div>
                           <div className="flex flex-col ml-2 mb-6">
-                            <p className="font-serif font-semibold text-[#222222] text-[20px] mb-4">
+                            <p className="font-serif font-semibold text-center text-[#222222] text-[60px] mb-10">
                               Tack för ditt meddelande!
                             </p>
-                            <p className="font-serif font-[328px] text-[#747474] text-[14px] mb-2 text-center">
+                            <p className="font-serif font-[328px] text-[#747474] text-[24px] mb-2 text-center">
                               Vi kommer så snart vi kan besvara din förfrågan
                               och återkomma med en plan.
                             </p>
