@@ -14,12 +14,12 @@ function Hero() {
 
   return (
     <section
-      className="flex justify-center h-screen items-center w-full bg-cover bg-center bg-no-repeat"
+      className="flex justify-center item-center h-[90vh] w-full bg-cover bg-center bg-no-repeat"
       id="hero"
     >
-      <div className="flex items-center justify-center relative w-[85%] h-screen">
+      <div className="flex items-center justify-center relative w-full h-full">
         <div className="absolute top-0 w-full h-full z-[-1]">
-          <video autoPlay loop muted src={background_video} type="video/mp4" className="w-full h-full"/>
+          <video autoPlay loop muted src={background_video} type="video/mp4"/>
         </div>
         <div className="flex w-full h-full justify-center items-center z-10">
           <div className="mb-16 ml-12 text-center">

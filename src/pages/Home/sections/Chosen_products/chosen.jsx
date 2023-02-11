@@ -11,16 +11,16 @@ function ChosenProducts() {
   const videoRef2 = useRef(null);
 
   return (
-    <section className="w-full flex items-center justify-center flex-col">
-      <div className="w-[85%]">
-        <div className="w-full grid flex-row grid-cols-3">
+    <section className="w-full flex h-full items-center justify-center flex-col">
+      <div className="flex w-full h-full flex-col">
+        <div className="flex w-full h-full grid flex-row grid-cols-3">
           <div className="w-full flex flex-col relative">
             <video
               loop
               muted
               ref={videoRef}
-              className="w-full max-h-full"
               type="video/mp4"
+              width="100%"
               onMouseOver={() => {
                 videoRef.current?.play();
               }}
@@ -39,7 +39,7 @@ function ChosenProducts() {
               loop
               muted
               ref={videoRef1}
-              className="w-full max-h-full"
+              width="100%"
               type="video/mp4"
               onMouseOver={() => {
                 videoRef1.current?.play();
@@ -59,8 +59,8 @@ function ChosenProducts() {
               loop
               muted
               ref={videoRef2}
-              className="w-full max-h-full"
               type="video/mp4"
+              width="100%"
               onMouseOver={() => {
                 videoRef2.current?.play();
               }}

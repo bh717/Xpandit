@@ -1,5 +1,4 @@
 import {
-	Blog,
 	ChosenProducts,
     FilmProducts,
 	Hero,
@@ -11,7 +10,6 @@ const Omoss = () => {
 			<Hero/>
 			<ChosenProducts/>
             <FilmProducts/>
-			<Blog/>
 		</>
 	);
 };

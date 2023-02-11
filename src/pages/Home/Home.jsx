@@ -1,7 +1,6 @@
 import {
-	Blog,
-	ChosenProducts,
 	Hero,
+	ChosenProducts,
 	PremiumSpice,
 } from "./sections/index";
 
@@ -11,7 +10,6 @@ const Home = () => {
 			<Hero/>
 			<ChosenProducts/>
 			<PremiumSpice/>
-			<Blog/>
 		</>
 	);
 };

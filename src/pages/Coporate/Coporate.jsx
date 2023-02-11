@@ -1,5 +1,4 @@
 import {
-	Blog,
 	ChosenProducts,
     FilmProducts,
 	Hero,
@@ -13,7 +12,6 @@ const Coporate = () => {
 			<ChosenProducts/>
             <FilmProducts/>
 			<PremiumSpice/>
-			<Blog/>
 		</>
 	);
 };

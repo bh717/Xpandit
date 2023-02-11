@@ -9,11 +9,11 @@ import linkedin from "./../../../../assets/images/social/linkedin.png";
 function Hero() {
   return (
     <section
-      className="flex justify-center items-center h-screen w-full bg-cover bg-center bg-no-repeat"
+      className="flex justify-center items-center h-[90vh] w-full bg-cover bg-center bg-no-repeat"
       id="hero"
     >
       <div
-        className="w-[85%] h-screen w-full bg-cover bg-center bg-no-repeat"
+        className="w-full h-full w-full bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0,0,0, .0), rgba(0,0,0, .0)), url(${HeroImage})`,
         }}

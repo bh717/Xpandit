@@ -1,5 +1,6 @@
 import { useState } from "react";
-import QuickView from "../../../../components/QuickView/QuickView";
+// import QuickView from "../../../../components/QuickView/QuickView";
+import QuickView from "../QuickView/QuickView";
 
 function Blog() {
   const [open, setOpen] = useState(false);
