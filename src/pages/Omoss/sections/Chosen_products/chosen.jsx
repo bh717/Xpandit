@@ -5,7 +5,7 @@ import Bild from "./../../../../assets/images/omoss/Bild.png"
 function ChosenProducts() {
 	return (
 		<section className="w-full flex justify-center flex-col items-center py-[6rem]">
-			<div className=" w-[85%] flex gap-12">
+			<div className=" w-[85%] flex gap-40">
 				<div className="w-[40%] flex justify-left">
 					<img src={Bild} />
 				</div>

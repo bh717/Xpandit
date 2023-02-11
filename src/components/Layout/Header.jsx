@@ -19,7 +19,7 @@ function Header() {
         className={`w-full items-center transparent-nav flex flex-col fixed z-50 transition-all duration-200 ease-linear -top-[6rem]`}
         ref={navRef}
       >
-        <div className="flex justify-between items-center px-10 py-7 w-[85%]">
+        <div className="flex justify-between items-center py-7 w-[85%]">
           <div className="flex gap-8 items-center">
             <Link to="/">
               <img src={Logo} />

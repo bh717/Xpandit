@@ -13,29 +13,27 @@ function Hero() {
       id="hero"
     >
       <div
-        className="w-full h-full w-full bg-cover bg-center bg-no-repeat"
+        className="w-full h-full w-full bg-cover bg-center bg-no-repeat relative justify-center items-center"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0,0,0, .0), rgba(0,0,0, .0)), url(${HeroImage})`,
         }}
       >
         <div className="flex w-full h-full justify-center items-center">
           <div className="mb-16 ml-12 text-center">
-            <div className="">
-              <h1 className="uppercase font-bold font-premier text-[120px] text-white tracking-wider">
-                OM OSS
-              </h1>
-            </div>
+            <h1 className="uppercase font-bold font-premier text-[120px] text-white tracking-wider">
+              OM OSS
+            </h1>
           </div>
         </div>
 
-        <div className="absolute w-full bottom-0 flex flex-row justify-between px-6">
+        <div className="absolute w-full bottom-0 flex flex-row justify-between px-6 py-10">
           <p className="text-[15px] font-medium text-white">
             info@xpanditmedia.se
           </p>
           <div className="flex gap-4">
-            <img className="w-[10px] h-[15px]" src={facebook} />
-            <img className="w-[10px] h-[15px]" src={linkedin} />
-            <img className="w-[10px] h-[15px]" src={instagram} />
+            <img className="w-[10px] h-[13px]" src={facebook} />
+            <img className="w-[10px] h-[13px]" src={linkedin} />
+            <img className="w-[10px] h-[13px]" src={instagram} />
           </div>
         </div>
       </div>

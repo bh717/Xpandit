@@ -27,7 +27,7 @@ function SubProductSlider() {
             </p>
           </div>
           <div className="mt-6 flex flex-col justify-between h-[100%]">
-            <p className="text-[20px] text-white font-extralight font-interpol text-left">
+            <p className="text-[18px] text-white font-extralight font-interpol text-left">
               ”Vi tog kontakt med Xpand It Media för att fånga dels våra fordon
               och personal i naturliga miljöer och för att kommunicera våra
               unika USPar. Där tycker vi att Xpand It Media gjort ett grymt jobb
@@ -55,7 +55,7 @@ function SubProductSlider() {
             <p className="text-[12px] text-[#DDDDDD] font-normal">CEO, DEFA</p>
           </div>
           <div className="mt-6 flex flex-col justify-between h-[100%]">
-            <p className="text-[20px] text-white font-extralight font-interpol text-left">
+            <p className="text-[18px] text-white font-extralight font-interpol text-left">
               ”Vi jobbar idag väldigt tätt med Xpand It Media, ett ytterst
               fruktbart och intressant samarbete. När det kommer till den här
               typen av samarbete så söker jag personligen alltid efter en
@@ -83,7 +83,7 @@ function SubProductSlider() {
             <p className="text-[12px] text-[#DDDDDD] font-normal">VD, Jackie</p>
           </div>
           <div className="mt-6 flex flex-col justify-between h-[100%]">
-            <p className="text-[20px] text-white font-extralight font-interpol text-left">
+            <p className="text-[18px] text-white font-extralight font-interpol text-left">
               ”Vi är supernöjda med Xpand It Media. Vi känner verkligen att de
               har matchat oss i denna process (...) De har verkligen kommit med
               mycket bra idéer och input samt svarat och återkopplat väldigt

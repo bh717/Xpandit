@@ -23,14 +23,14 @@ function Hero() {
             </h1>
           </div>
         </div>
-        <div className="absolute w-full bottom-0 flex flex-row justify-between px-6">
+        <div className="absolute w-full bottom-0 flex flex-row justify-between px-6 py-10">
           <p className="text-[15px] font-medium text-white">
             info@xpanditmedia.se
           </p>
           <div className="flex gap-4">
-            <img className="w-[10px] h-[15px]" src={facebook} />
-            <img className="w-[10px] h-[15px]" src={linkedin} />
-            <img className="w-[10px] h-[15px]" src={instagram} />
+            <img className="w-[10px] h-[13px]" src={facebook} />
+            <img className="w-[10px] h-[13px]" src={linkedin} />
+            <img className="w-[10px] h-[13px]" src={instagram} />
           </div>
         </div>
       </div>

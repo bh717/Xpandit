@@ -13,8 +13,8 @@ function ChosenProducts() {
   return (
     <section className="w-full flex h-full items-center justify-center flex-col">
       <div className="flex w-full h-full flex-col">
-        <div className="flex w-full h-full grid flex-row grid-cols-3">
-          <div className="w-full flex flex-col relative">
+        <div className="flex w-full  grid flex-row grid-cols-3">
+          <div className="w-full h-[80vh] overflow-hidden flex flex-col relative">
             <video
               loop
               muted
@@ -34,7 +34,7 @@ function ChosenProducts() {
               REKLAMFILM
             </p>
           </div>
-          <div className="w-full flex flex-col relative">
+          <div className="w-full h-[80vh] overflow-hidden flex flex-col relative">
             <video
               loop
               muted
@@ -54,7 +54,7 @@ function ChosenProducts() {
               EVENTFILM
             </p>
           </div>
-          <div className="w-full flex flex-col relative">
+          <div className="w-full h-[80vh] overflow-hidden flex flex-col relative">
             <video
               loop
               muted
@@ -75,7 +75,7 @@ function ChosenProducts() {
             </p>
           </div>
         </div>
-        <div className="w-full flex flex-col justify-center items-center py-[4rem]">
+        <div className="w-full flex flex-col justify-center items-center pt-[10rem] pb-[6rem]">
           <div
             className="w-[60%] h-[131px] bg-no-repeat"
             style={{

@@ -35,12 +35,12 @@ function QuickView({ open, setOpen }) {
             <div className="flex min-h-full items-center justify-end h-[100%] text-center sm:items-center sm:p-0">
               <Transition.Child
                 as={Fragment}
-                enter="ease-out duration-200"
-                enterFrom="opacity-0 scale-[0.25]"
-                enterTo="opacity-100 scale-100"
-                leave="ease-in duration-200"
-                leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-[0.25]"
+                enter="transition ease-in-out duration-500 transform"
+                enterFrom="translate-x-full"
+                enterTo="translate-x-0"
+                leave="transition ease-in-out duration-300 transform"
+                leaveFrom="translate-x-full"
+                leaveTo="translate-x-0"
               >
                 <Dialog.Panel className="relative overflow-hidden bg-white text-left shadow-xl transition-all w-[50%] h-[100%] ">
                   <div className="flexgap-4 w-full h-full">
