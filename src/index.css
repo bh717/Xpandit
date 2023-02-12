@@ -173,3 +173,23 @@ body {
 ul.slider {
 	z-index: 61;
 }
+
+.swiper{
+	overflow: visible !important;
+	overflow-x: clip !important;
+	/* overflow-y: clip !important; */
+}
+
+.swiper .swiper-button-prev{
+	top: -50px;
+	/* right: 0px; */
+	height: 30px;
+    overflow: hidden;
+	left: 90%;
+}
+
+.swiper .swiper-button-next{
+	top: -50px;
+	height: 30px;
+    overflow: hidden;
+}
