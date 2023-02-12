@@ -30,9 +30,9 @@ function Hero() {
             info@xpanditmedia.se
           </p>
           <div className="flex gap-4">
-            <img className="w-[10px] h-[13px]" src={facebook} />
-            <img className="w-[10px] h-[13px]" src={linkedin} />
-            <img className="w-[10px] h-[13px]" src={instagram} />
+            <img className="w-[10px] h-[12px]" src={facebook} />
+            <img className="w-[10px] h-[12px]" src={linkedin} />
+            <img className="w-[10px] h-[12px]" src={instagram} />
           </div>
         </div>
       </div>

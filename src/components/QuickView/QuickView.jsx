@@ -74,7 +74,12 @@ function QuickView({ open, setOpen }) {
                               </p>
                             </div>
                             <div className="flex flex-row w-full px-4 justify-between gap-4">
-                              <button className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]">
+                              <button
+                                className="flex flex-row items-center justify-center px-4 py-2 bg-[#1E1E1E] rounded-[32px] w-[238px] h-[56px] text-white text-[24px]"
+                                onClick={() => {
+                                  setStep((step) => "step1");
+                                }}
+                              >
                                 Bli kontaktad
                               </button>
                               <button
